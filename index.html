@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<title>Mi Portfolio</title>
 
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body{
-    background:#121212;
-    color:white;
-    font-family:Arial,sans-serif;
-    text-align:center;
-    padding-top:100px;
-}
+    <title>Raúl Cacho Domínguez</title>
 
-h1{
-    color:#4da3ff;
-}
-.boton{
-    background:#4da3ff;
-    color:white;
-    padding:12px 20px;
-    border-radius:8px;
-    text-decoration:none;
-    display:inline-block;
-}
+    <style>
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
 
-</style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #121212;
+            color: white;
+        }
 
-</head>
-<body>
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background: rgba(18,18,18,0.95);
+            padding: 20px;
+            z-index: 100;
+        }
 
-<h1>Raúl Cacho Domínguez</h1>
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            list-style: none;
+        }
 
-<h2>Profesor de Ingeniería Informática</h2>
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-<p>GitHub Pages funcionando correctamente 🚀</p>
-<p>
-    <a href="https://rcd98.github.io/miembros"
-        Ver miembros
-    </a>
-</p>
-<p>
-    <a class="boton" href="https://rcd98.github.io/miembros"
-        Ver miembros
-    </a>
-</p>
+        nav a:hover {
+            color: #4da3ff;
+        }
 
-
-</body>
-</html>
+        header {
+            height: 100vh;
+            display: flex;
+            justify-content: center
