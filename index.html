@@ -52,4 +52,227 @@
         header {
             height: 100vh;
             display: flex;
-            justify-content: center
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background:
+                linear-gradient(
+                    rgba(0,0,0,0.7),
+                    rgba(0,0,0,0.7)
+                );
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            color: #4da3ff;
+            margin-bottom: 20px;
+        }
+
+        .hero h2 {
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 100px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #4da3ff;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #1e1e1e;
+            padding: 25px;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #4da3ff;
+            margin-bottom: 10px;
+        }
+
+        .boton {
+            display: inline-block;
+            margin-top: 30px;
+            background: #4da3ff;
+            color: white;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            background: #2f7ff1;
+        }
+
+        .centrado {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #0d0d0d;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<nav>
+
+    <ul>
+        <li>#inicioInicio</a></li>
+        <li>#sobre-miSobre mí</a></li>
+        <li>#tecnologiasTecnologías</a></li>
+        <li>#proyectosProyectos</a></li>
+    </ul>
+
+</nav>
+
+<header id="inicio">
+
+    <div class="hero">
+
+        <div>
+
+            <h1>Raúl Cacho Domínguez</h1>
+
+            <h2>Profesor de Ingeniería Informática</h2>
+
+            <p>
+                Portfolio personal desarrollado con GitHub Pages,
+                HTML y CSS mientras preparo la asignatura
+                Juegos para Web y Redes Sociales.
+            </p>
+
+            /miembros
+                Ver miembros
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+<section id="sobre-mi">
+
+    <h2>Sobre mí</h2>
+
+    <p class="centrado">
+        Profesor universitario interesado en programación,
+        inteligencia artificial, desarrollo web y tecnologías
+        aplicadas al software y videojuegos.
+    </p>
+
+</section>
+
+<section id="tecnologias">
+
+    <h2>Tecnologías</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>HTML5</h3>
+            <p>Estructuración de contenido web.</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS3</h3>
+            <p>Diseño visual y experiencia de usuario.</p>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Interactividad y lógica frontend.</p>
+        </div>
+
+        <div class="card">
+            <h3>Python</h3>
+            <p>Automatización e inteligencia artificial.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="proyectos">
+
+    <h2>Proyectos</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>GitHub Pages</h3>
+            <p>
+                Desarrollo de una landing page personal
+                usando únicamente HTML y CSS.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Juegos para Web y RRSS</h3>
+            <p>
+                Preparación de materiales y recursos para
+                la docencia.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Página Miembros</h3>
+            <p>
+                Ejemplo de navegación entre páginas mediante
+                enlaces HTML.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="centrado">
+
+        /miembros
+            Ir a la página de miembros
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 · Raúl Cacho Domínguez
+    </p>
+
+</footer>
+
+</body>
+
+</html>
